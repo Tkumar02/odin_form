@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    --size-left: 40vw;
+    --size-right: 58vw;
+    --height: 100vh;
+    background-color: black;
+}
+
+.left-image{
+    height: var(--height);
+    width: var(--size-left);
+}
+
+.l_image{
+    height: var(--height);
+    width: var(--size-left);
+}
+
+.overlay{
+    position: absolute;
+    margin-top: 40vh;
+    height: 10vh;
+    width: var(--size-left);
+    background-color: RGBA(71,25,53,0.8) ;
+    text-align: center;
+}
+
+.overlay > p{
+    position: relative;
+    margin-top: 3vh;
+    font-size: 2vw;
+}
+
+.right-box{
+    height: var(--height);
+    width: var(--size-right);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 30vh;
+    width: var(--size-right);
+    background-color: black;
+    border: 1px solid yellow;
+    text-align: center;
+
+    container-type: inline-size;
+}
+
+.top_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5vh;
+    font-size: 4cqi;
+    /* font-size: calc(15vw+15vh); */
+    color: blanchedalmond;
+}
+
+.cred >span{
+    font-weight: 800;
+    font-style: italic;
+    color: lightseagreen;
+}
+
+.two{
+    font-weight: 4;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .top .text{
+    width: max(30vw,130px);
+    font-size: min(1rem,30px);
+    position: relative;
+    top: 10%;
+    left: 30%;
+} */
+
+.middle{
+    height: 40vh;
+    width: var(--size-right);
+    background-color: black;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+}
+
+.middle > form{
+    margin-left: 5vw;
+}
+
+:hover
+
+.names,
+.password{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.bottom{
+    height: 30vh;
+    width: var(--size-right);
+    background-color: black;
+    border: 1px solid yellow;
+}
+
+.member{
+    margin: 3vw;
+    font-size: 2vw;
+}
+
+#log-in{
+    color: purple;
+}
+
+#log-in:hover{
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
